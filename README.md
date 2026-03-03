@@ -1,2 +1,29 @@
-# rDNA
-rDNA arrays assembly
+# RNA Assembly Repository
+This repository contains datasets for rDNA assembly and analysis.
+
+## Datasets
+### Links
+- **Whole-genome sequencing (WGS) Dataset:** [Download/View Data][link-wgs]
+- **Adaptive sampling (AS) Dataset:** [Download/View Data][link-as]
+- **Whole-genome sequencing using high-throughput flowcells (WGS HTFC) Dataset:** [Download/View Data][link-htfc]
+
+[link-wgs]: https://your-link-here.com/wgs
+[link-as]: https://your-link-here.com/as
+[link-htfc]: https://your-link-here.com/htfc
+
+### Overview of the available datasets
+
+| Dataset | Number of reads | Coverage | \>Q15 (QV) | \>Q30 (QV) | Sequencing Date |
+| :--- |:---------------:|:--------:|:----------:|:----------:|:---------------:|
+| **WGS** |     14,922      |   27x    |   92.8%    |    0.8%    |  [06/2025](#)   |
+| **AS** |     13,774      |   29x    |   92.4%    |    2.1%    |  [08/2025](#)   |
+| **WGS HTFC** |     18,569      |   35x    |  96.3%   |    2.3%    |  [11/2025](#)   |
+| **WGS + AS** |     28,696      |   56x    |  92.6%   |    1.4%    |        -        |
+| **WGS+AS+HTFC** |     47,265      |   91x    |  94.1%   |    1.8%    |        -        |
+
+> **Basecalling:** These datasets utilize **hyperbasecalling**, which offers higher basepair-precision compared to the standard SUP (Super Accuracy) model. However, please note that this increased precision comes with a computational cost, as hyperbasecalling is approximately **10x slower** than SUP.
+
+### Methodology
+To identify reads containing rDNA units, we aligned the sequencing data against an **rDNA array** reference
+(10x KY962518-ROT reference) using minimap2 version 2.30-r1287. This method outperformed single-unit 
+reference mapping (one KY962518-ROT), yielding significantly higher coverage.
