@@ -30,3 +30,10 @@ This repository contains datasets for rDNA assembly and analysis.
 To identify reads containing rDNA units, we aligned the sequencing data against an **rDNA array** reference
 (10x KY962518-ROT reference) using minimap2 version 2.30-r1287. This method outperformed single-unit 
 reference mapping (one KY962518-ROT), yielding significantly higher coverage.
+
+## Current rDNA assemblies
+Chromosome 14 maternal (active) and paternal (inactive) rDNA arrays.
+
+| maternal rDNA array | paternal rDNA array | 
+|:----------|:----------|
+| [chr14 maternal](https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/rDNA/PAN027.rDNA.chr14.maternal.ref.fa) | [chr14 paternal](https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/rDNA/PAN027.rDNA.chr14.paternal.ref.fa) | 
