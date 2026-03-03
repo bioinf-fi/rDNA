@@ -21,7 +21,10 @@ This repository contains datasets for rDNA assembly and analysis.
 | **WGS + AS** |     28,696      |   56x    |  92.6%   |    1.4%    |        -        |
 | **WGS+AS+HTFC** |     47,265      |   91x    |  94.1%   |    1.8%    |        -        |
 
-> **Basecalling:** These datasets utilize **hyperbasecalling**, which offers higher basepair-precision compared to the standard SUP (Super Accuracy) model. However, please note that this increased precision comes with a computational cost, as hyperbasecalling is approximately **10x slower** than SUP.
+> **Basecalling:** These datasets were basecalled using a new experimental ONT model called 
+> **hyperbasecalling**, which offers higher precision compared to the standard SUP 
+> (Super Accuracy) model. However, please note that this increased precision comes with a 
+> computational cost, as hyperbasecalling is approximately **10x slower** than SUP.
 
 ### Methodology
 To identify reads containing rDNA units, we aligned the sequencing data against an **rDNA array** reference
