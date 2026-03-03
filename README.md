@@ -1,4 +1,4 @@
-# RNA Assembly Repository
+# Human rDNA Assembly Repository
 This repository contains datasets for rDNA assembly and analysis.
 
 ## Datasets
