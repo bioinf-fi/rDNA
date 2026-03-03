@@ -3,9 +3,9 @@ This repository contains datasets for rDNA assembly and analysis.
 
 ## Datasets
 ### Links
-- **Whole-genome sequencing (WGS) Dataset:** [Download/View Data][link-wgs]
-- **Adaptive sampling (AS) Dataset:** [Download/View Data][link-as]
-- **Whole-genome sequencing using high-throughput flowcells (WGS HTFC) Dataset:** [Download/View Data][link-htfc]
+- **Whole-genome sequencing (WGS) Dataset:** [WILL BE AVAILABLE SOON][link-wgs]
+- **Adaptive sampling (AS) Dataset:** [WILL BE AVAILABLE SOON][link-as]
+- **Whole-genome sequencing using high-throughput flowcells (WGS HTFC) Dataset:** [WILL BE AVAILABLE SOON][link-htfc]
 
 [link-wgs]: https://your-link-here.com/wgs
 [link-as]: https://your-link-here.com/as
