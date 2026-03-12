@@ -1,9 +1,7 @@
 # Human rDNA Assembly Repository
 This repository contains datasets for rDNA assembly and analysis.
 
-## Datasets
-
-### Links
+### rDNA links
 - **Whole-genome sequencing (WGS) Dataset:** [WILL BE AVAILABLE SOON][link-wgs]
 - **Adaptive sampling (AS) Dataset:** [WILL BE AVAILABLE SOON][link-as]
 - **Whole-genome sequencing using high-throughput flow cells (HTFC) Dataset:** [WILL BE AVAILABLE SOON][link-htfc]
@@ -11,9 +9,9 @@ This repository contains datasets for rDNA assembly and analysis.
 [link-wgs]: https://your-link-here.com/wgs
 [link-as]: https://your-link-here.com/as
 [link-htfc]: https://your-link-here.com/htfc
+[link-rna]: https://your-link-here.com/rna
 
-### Overview of the available datasets
-
+### Overview of the available rDNA datasets
 | Dataset             | Number of reads | Coverage | \>Q15 (QV) | \>Q30 (QV) | Sequencing Date |
 |:--------------------|:---------------:|:--------:|:----------:|:----------:|:---------------:|
 | **WGS**             |     14,922      |   27x    |   92.8%    |    0.8%    |  [06/2025](#)   |
@@ -38,3 +36,6 @@ Chromosome 14 maternal (active) and paternal (inactive) rDNA arrays.
 | maternal rDNA array | paternal rDNA array | 
 |:----------|:----------|
 | [chr14 maternal](https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/rDNA/PAN027.rDNA.chr14.maternal.ref.fa) | [chr14 paternal](https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/rDNA/PAN027.rDNA.chr14.paternal.ref.fa) | 
+
+## Other datasets
+- **rRNA:** [WILL BE AVAILABLE SOON][link-rna]
