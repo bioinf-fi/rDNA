@@ -2,14 +2,13 @@
 This repository contains datasets for rDNA assembly and analysis.
 
 ### rDNA links
-- **Whole-genome sequencing (WGS) Dataset:** [WILL BE AVAILABLE SOON][link-wgs]
-- **Adaptive sampling (AS) Dataset:** [WILL BE AVAILABLE SOON][link-as]
-- **Whole-genome sequencing using high-throughput flow cells (HTFC) Dataset:** [WILL BE AVAILABLE SOON][link-htfc]
+- **Whole-genome sequencing (WGS) + Adaptive sampling (AS) Dataset:** [Access via Google Drive][link-wgs_as]
+- **Whole-genome sequencing using high-throughput flow cells (HTFC) Dataset:** [Access via Google Drive][link-htfc]
 
-[link-wgs]: https://your-link-here.com/wgs
-[link-as]: https://your-link-here.com/as
-[link-htfc]: https://your-link-here.com/htfc
-[link-rna]: https://your-link-here.com/rna
+[link-wgs_as]: https://drive.google.com/drive/folders/1FfbtifBLgU-5ylW7hkMuM3PzZqsfyNeZ?usp=drive_link
+[link-htfc]: https://drive.google.com/drive/folders/1FfbtifBLgU-5ylW7hkMuM3PzZqsfyNeZ?usp=drive_link
+[link-hifi]: https://drive.google.com/drive/folders/1B_uk2TEqX7luamWOCAgHfa1XNuQ_DBsi?usp=drive_link
+[link-rna]: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=submissions/61E64CC7-3281-4387-B428-C284F65B84EE--WASHU_PED_DATA/direct_RNA/
 
 ### Overview of the available rDNA datasets
 | Dataset             | Number of reads | Coverage | \>Q15 (QV) | \>Q30 (QV) | Sequencing Date |
@@ -38,4 +37,5 @@ Chromosome 14 maternal (active) and paternal (inactive) rDNA arrays.
 | [chr14 maternal](https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/rDNA/PAN027.rDNA.chr14.maternal.ref.fa) | [chr14 paternal](https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/rDNA/PAN027.rDNA.chr14.paternal.ref.fa) | 
 
 ## Other datasets
-- **rRNA:** [WILL BE AVAILABLE SOON][link-rna]
+- **rDNA HiFi:** [Access via Google drive][link-hifi]
+- **rRNA ONT:** [Access via S3 bucket][link-rna]
