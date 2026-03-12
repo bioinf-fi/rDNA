@@ -2,8 +2,8 @@
 This repository contains datasets for rDNA assembly and analysis.
 
 ### rDNA links
-- **Whole-genome sequencing (WGS) + Adaptive sampling (AS) Dataset:** [Access via Google Drive][link-wgs_as]
-- **Whole-genome sequencing using high-throughput flow cells (HTFC) Dataset:** [Access via Google Drive][link-htfc]
+- **Whole-genome sequencing (WGS) + Adaptive sampling (AS) Dataset (ONT):** [Access via Google Drive][link-wgs_as]
+- **Whole-genome sequencing using high-throughput flow cells (HTFC) Dataset (ONT):** [Access via Google Drive][link-htfc]
 
 [link-wgs_as]: https://drive.google.com/drive/folders/1FfbtifBLgU-5ylW7hkMuM3PzZqsfyNeZ?usp=drive_link
 [link-htfc]: https://drive.google.com/drive/folders/1FfbtifBLgU-5ylW7hkMuM3PzZqsfyNeZ?usp=drive_link
