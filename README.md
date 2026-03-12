@@ -1,5 +1,5 @@
 # Human rDNA Assembly Repository
-This repository contains datasets for rDNA assembly and analysis.
+This repository contains datasets for the rDNA assembly and analysis, using the individual PAN027 (HG06807) from the washu pedigree. The project aims to assemble as complete diploid rDNA arrays as possible, given the current state of technologies and algorithms. The datasets below were predominantly generated in Miga lab at UCSC, in collaborations with WashU. 
 
 ### rDNA links
 - **Whole-genome sequencing (WGS) + Adaptive sampling (AS) Dataset (ONT):** [Access via Google Drive][link-wgs_as]
